@@ -41,7 +41,7 @@ Cada elemento do vetor de participantes deve conter o nome do participante e o e
 
 Para resolver o problema, construa e use pelo menos as seguintes funções:
 
-             Uma função que receba um vetor de questões e uma quantidade de questões a exibir. A função deve mostrar uma letra para cada questão (iniciando em A), a                sua dificuldade, horário de início, horário de fim e o tempo calculado da solução em minutos. As questões exibidas devem estar em posições consecutivas do              vetor. Use a função para gerar o resumo por participante. Ela deve ser chamada uma vez para cada participante. O nome do participante não deve ser                      mostrado pela função.
+Uma função que receba um vetor de questões e uma quantidade de questões a exibir. A função deve mostrar uma letra para cada questão (iniciando em A), a                sua dificuldade, horário de início, horário de fim e o tempo calculado da solução em minutos. As questões exibidas devem estar em posições consecutivas do              vetor. Use a função para gerar o resumo por participante. Ela deve ser chamada uma vez para cada participante. O nome do participante não deve ser                      mostrado pela função.
             
              Uma função que receba o vetor dinâmico de questões, o tamanho do vetor, o índice inicial do elemento que será contabilizado no resultado e o tamanho do               passo para obter o índice do próximo elemento. A função deve retornar uma média (um registro tipo média contendo a média de dificuldade e de tempo para os             elementos analisados). A função deve ser chamada uma vez para cada questão e uma última vez para obter as estatísticas totais do concurso.
             
