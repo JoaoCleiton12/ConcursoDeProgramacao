@@ -43,11 +43,11 @@ Para resolver o problema, construa e use pelo menos as seguintes funções:
 
 Uma função que receba um vetor de questões e uma quantidade de questões a exibir. A função deve mostrar uma letra para cada questão (iniciando em A), a                sua dificuldade, horário de início, horário de fim e o tempo calculado da solução em minutos. As questões exibidas devem estar em posições consecutivas do              vetor. Use a função para gerar o resumo por participante. Ela deve ser chamada uma vez para cada participante. O nome do participante não deve ser                      mostrado pela função.
             
-             Uma função que receba o vetor dinâmico de questões, o tamanho do vetor, o índice inicial do elemento que será contabilizado no resultado e o tamanho do               passo para obter o índice do próximo elemento. A função deve retornar uma média (um registro tipo média contendo a média de dificuldade e de tempo para os             elementos analisados). A função deve ser chamada uma vez para cada questão e uma última vez para obter as estatísticas totais do concurso.
+Uma função que receba o vetor dinâmico de questões, o tamanho do vetor, o índice inicial do elemento que será contabilizado no resultado e o tamanho do               passo para obter o índice do próximo elemento. A função deve retornar uma média (um registro tipo média contendo a média de dificuldade e de tempo para os             elementos analisados). A função deve ser chamada uma vez para cada questão e uma última vez para obter as estatísticas totais do concurso.
             
-             Para gerar os traços separando as seções do programa, construa e use uma função que receba um caractere e um valor inteiro representando o tamanho da                 linha a ser exibida.
+Para gerar os traços separando as seções do programa, construa e use uma função que receba um caractere e um valor inteiro representando o tamanho da                 linha a ser exibida.
             
-             Faça com que horários (registro horário) possam ser lidos com cin, exibidos com cout e subtraídos com o operador de subtração, operator-(). O resultado               da subtração deve ser um valor representando a diferença em minutos. Para simplificar, considere que os horários estão sempre dentro de um mesmo dia.
+Faça com que horários (registro horário) possam ser lidos com cin, exibidos com cout e subtraídos com o operador de subtração, operator-(). O resultado               da subtração deve ser um valor representando a diferença em minutos. Para simplificar, considere que os horários estão sempre dentro de um mesmo dia.
             
           
 Separe o programa em três arquivos:
